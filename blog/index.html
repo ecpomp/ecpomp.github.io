@@ -9,3 +9,5 @@ title: Blog of the SOLLVE Hackathon Website
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
+
+permalink: /blog/:year/:month/:day/:title
